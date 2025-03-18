@@ -1,0 +1,46 @@
+/*Stylyse by Dan3_now*/
+
+@font-face {
+    font-family: "Splatfont2";
+    src: url("Splatfont2.ttf")
+}
+
+* {
+    font-family: "Splatfont2";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.header {
+    padding: 3em;
+}
+
+#guess_header div {
+    padding: 1em;
+}
+
+input {
+    width: 100%;
+}
+
+.input_guess {
+    display: flex;
+}
+
+.fcolumn {
+    flex-direction: column;
+}
+
+.justify {
+    justify-items: center;
+}

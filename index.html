@@ -11,8 +11,33 @@
 
     <!-- ====== Boxicons CSS ====== -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 </head>
+
 <body>
-    Hello world
+
+    <div class="header fcolumn justify">
+        <div class="title">Splatdle</div>
+        <div class="game_nav">game_nav</div>
+    </div>
+    
+    <div class="main_game fcolumn justify">
+        <div class="guess">
+            <div class="input_guess">
+                <input type="search" name="" id="game_input">
+                <button type="submit" id="game_submit">button</button>
+            </div>
+            <div id="guess_select"></div>
+        </div>
+        <div class="tried_guess fcolumn">
+            <div id="guess_header"></div>
+            <div id="guess_lines">
+                <div class="line">line</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    
 </body>
+
+</html>
