@@ -314,7 +314,7 @@
         },
         {
             "name" : "Général Tatar",
-            "image" : "tartarphone.png",
+            "image" : "tartarphone.webp",
             "sexe" : "Inconnue",
             "espece" : "IA",
             "affiliation" : ["Métro abyssal"],
