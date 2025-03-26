@@ -1,12 +1,20 @@
 {
     "fr" : [
         {
+            "image" : "exemple.jpg",
+            "name" : "Exemple",
+            "sexe" : "Exemple",
+            "species" : "Exemple",
+            "affiliation" : ["Exemple"],
+            "game" : ["Splatoon 0"]
+        },
+        {
             "name" : "Anne",
             "image" : "annie.png",
             "sexe" : "Femme",
             "species" : "Anémone de mer",
             "affiliation" : ["Vendeur"],
-            "game" : ["Splaton 1", "Splaton 3"]
+            "game" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "Ayo",
@@ -14,7 +22,7 @@
             "sexe" : "Femme",
             "species" : "Inkling",
             "affiliation" : ["Idol", "Escadron Espadon"],
-            "game" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Raimi",
@@ -22,7 +30,7 @@
             "sexe" : "Homme",
             "species" : "Raie manta",
             "affiliation" : ["Idol"],
-            "game" : ["Splaton 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Bisk",
@@ -30,7 +38,7 @@
             "sexe" : "Homme",
             "species" : "Crabe-araignée",
             "affiliation" : ["Vendeur"],
-            "game" : ["Splaton 2", "Splaton 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Cartouche",
@@ -38,7 +46,7 @@
             "sexe" : "Homme",
             "espece" : "Limule",
             "affiliation" : ["Vendeur", "Escadron Espadon"],
-            "jeu" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Charbitre",
@@ -46,7 +54,7 @@
             "sexe" : "Inconnue",
             "espece" : "Chat",
             "affiliation" : ["Arbitre"],
-            "jeu" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Chef Curbit A.C.",
@@ -54,7 +62,7 @@
             "sexe" : "Inconnue",
             "espece" : "Concombre de mer",
             "affiliation" : ["Métro abyssal"],
-            "jeu" : ["Splaton 2"]
+            "jeu" : ["Splatoon 2"]
         },
         {
             "name" : "Omar",
@@ -62,7 +70,7 @@
             "sexe" : "Homme",
             "espece" : "Crevette",
             "affiliation" : ["Vendeur", "Snack"],
-            "jeu" : ["Splaton 1", "Splaton 2"]
+            "jeu" : ["Splatoon 1", "Splatoon 2"]
         },
         {
             "name" : "Eyte",
@@ -70,7 +78,7 @@
             "sexe" : "Femme",
             "espece" : "Octaling",
             "affiliation" : ["Métro abyssal", "Musicien", "Tour de l'Ordre"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Flo",
@@ -78,7 +86,7 @@
             "sexe" : "Femme",
             "espece" : "Nudibranche",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Angie",
@@ -86,7 +94,7 @@
             "sexe" : "Femme",
             "espece" : "Inkling",
             "affiliation" : ["Idol"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Arnaud Till",
@@ -94,7 +102,7 @@
             "sexe" : "Homme",
             "espece" : "Nautile",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Monia",
@@ -102,7 +110,7 @@
             "sexe" : "Femme",
             "espece" : "Anémone de mer",
             "affiliation" : ["Vendeur", "Musicien"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Don Podio",
@@ -110,7 +118,7 @@
             "sexe" : "Homme",
             "espece" : "Isopode géant",
             "affiliation" : ["Métro abyssal"],
-            "jeu" : ["Splaton 2"]
+            "jeu" : ["Splatoon 2"]
         },
         {
             "name" : "Mehdi",
@@ -118,7 +126,7 @@
             "sexe" : "Inconnue",
             "espece" : "Méduse",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Gégé Latineux",
@@ -126,7 +134,7 @@
             "sexe" : "Inconnue",
             "espece" : "Méduse",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "G. Latineux",
@@ -134,7 +142,7 @@
             "sexe" : "Inconnue",
             "espece" : "Méduse",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 1", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "Anastase Macalamar",
@@ -142,7 +150,7 @@
             "sexe" : "Homme",
             "espece" : "Inkling",
             "affiliation" : ["Escadron Espadon", "Métro abyssal"],
-            "jeu" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Vendeuse",
@@ -150,7 +158,7 @@
             "sexe" : "Inconnue",
             "espece" : "Poisson rouge",
             "affiliation" : ["Vendeur", "Snack"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Coralie",
@@ -158,7 +166,7 @@
             "sexe" : "Femme",
             "espece" : "Octaling",
             "affiliation" : ["Idol", "Métro abyssal", "Tour de l'Ordre"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Mini Charbitre",
@@ -166,7 +174,7 @@
             "sexe" : "Inconnue",
             "espece" : "Chat",
             "affiliation" : ["Arbitre"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "M. Coco",
@@ -174,7 +182,7 @@
             "sexe" : "Homme",
             "espece" : "Crabe de cocotier",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Tipik",
@@ -182,7 +190,7 @@
             "sexe" : "Homme",
             "espece" : "Oursin",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Oly",
@@ -190,7 +198,7 @@
             "sexe" : "Femme",
             "espece" : "Inkling",
             "affiliation" : ["Idol", "Escadron Espadon"],
-            "jeu" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Perle",
@@ -198,7 +206,7 @@
             "sexe" : "Femme",
             "espece" : "Inkling",
             "affiliation" : ["Idol", "Métro abyssal", "Tour de l'Ordre"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Agent 3",
@@ -206,7 +214,7 @@
             "sexe" : "Femme",
             "espece" : "Inkling",
             "affiliation" : ["Escadron Espadon"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Pasquale",
@@ -214,7 +222,7 @@
             "sexe" : "Femme",
             "espece" : "Octaling",
             "affiliation" : ["Idol"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Agent 4",
@@ -222,7 +230,7 @@
             "sexe" : "Femme",
             "espece" : "Inkling",
             "affiliation" : ["Escadron Espadon"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Agent 8",
@@ -230,7 +238,7 @@
             "sexe" : "Femme",
             "espece" : "Octaling",
             "affiliation" : ["Escadron Espadon", "Métro abyssal", "Tour de l'Ordre"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Amiral",
@@ -238,7 +246,7 @@
             "sexe" : "Femme",
             "espece" : "Inkling",
             "affiliation" : ["Escadron Espadon"],
-            "jeu" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Kipik",
@@ -246,7 +254,7 @@
             "sexe" : "Homme",
             "espece" : "Oursin",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 1", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "Limu & Lumi",
@@ -254,7 +262,7 @@
             "sexe" : "Inconnue",
             "espece" : "Triops",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Frédéric",
@@ -262,7 +270,7 @@
             "sexe" : "Homme",
             "espece" : "Chinchard japonais",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Crustifer",
@@ -270,7 +278,7 @@
             "sexe" : "Inconnue",
             "espece" : "Luciferidae",
             "affiliation" : ["Vendeur", "Tour de l'Ordre"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Alex Cargo",
@@ -278,7 +286,7 @@
             "sexe" : "Homme",
             "espece" : "Escargot d'eau douce",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         },
         {
             "name" : "Gambastien",
@@ -286,7 +294,7 @@
             "sexe" : "Inconnue",
             "espece" : "Crevette impériale",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Mone",
@@ -294,7 +302,7 @@
             "sexe" : "Inconnue",
             "espece" : "poisson clown",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splaton 1", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "DJ Octave",
@@ -302,7 +310,7 @@
             "sexe" : "Homme",
             "espece" : "Octaling",
             "affiliation" : ["Octarien"],
-            "jeu" : ["Splaton 1", "Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "M. Ours",
@@ -310,7 +318,7 @@
             "sexe" : "Homme",
             "espece" : "Grizzli",
             "affiliation" : ["Salmon Run"],
-            "jeu" : ["Splaton 2", "Splaton 3"]
+            "jeu" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Général Tatar",
@@ -318,7 +326,7 @@
             "sexe" : "Inconnue",
             "espece" : "IA",
             "affiliation" : ["Métro abyssal"],
-            "jeu" : ["Splaton 2"]
+            "jeu" : ["Splatoon 2"]
         },
         {
             "name" : "Ordre",
@@ -326,7 +334,7 @@
             "sexe" : "Inconnue",
             "espece" : "IA",
             "affiliation" : ["Tour de l'Ordre"],
-            "jeu" : ["Splaton 3"]
+            "jeu" : ["Splatoon 3"]
         }
     ]
 }
