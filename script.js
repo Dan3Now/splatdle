@@ -27,6 +27,12 @@ class Game {
             this.guess_header.append(newDiv);
         }
 
+        //adapt characterList
+        this.characterList.shift();
+        this.characterList.sort((a,b) => {
+            return a["name"].localeCompare(b["name"]);
+        });
+
         //add event
         this.guess_input.addEventListener("change", e => {
             let possible_chr = this.characterList.filter(chr => {
@@ -59,3 +65,4 @@ class Game {
 
 var instence = new Game("./assets/character/0_character.json");
 instence.begin();
+
