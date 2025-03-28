@@ -110,7 +110,7 @@ class Game {
                     this.guess_select.removeChild(ppr);
                     
                     //console.log(line);
-                    this.guess_lines.appendChild(line);
+                    this.guess_lines.prepend(line);
                 })
             }
         });
