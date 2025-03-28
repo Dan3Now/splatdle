@@ -44,297 +44,297 @@
             "name" : "Cartouche",
             "image" : "cartouche.png",
             "sexe" : "Homme",
-            "espece" : "Limule",
+            "species" : "Limule",
             "affiliation" : ["Vendeur", "Escadron Espadon"],
-            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Charbitre",
             "image" : "charbitre.png",
             "sexe" : "Inconnue",
-            "espece" : "Chat",
+            "species" : "Chat",
             "affiliation" : ["Arbitre"],
-            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Chef Curbit A.C.",
             "image" : "CQ_cumber.png",
             "sexe" : "Inconnue",
-            "espece" : "Concombre de mer",
+            "species" : "Concombre de mer",
             "affiliation" : ["Métro abyssal"],
-            "jeu" : ["Splatoon 2"]
+            "game" : ["Splatoon 2"]
         },
         {
             "name" : "Omar",
             "image" : "crusty.png",
             "sexe" : "Homme",
-            "espece" : "Crevette",
+            "species" : "Crevette",
             "affiliation" : ["Vendeur", "Snack"],
-            "jeu" : ["Splatoon 1", "Splatoon 2"]
+            "game" : ["Splatoon 1", "Splatoon 2"]
         },
         {
             "name" : "Eyte",
             "image" : "eyte.png",
             "sexe" : "Femme",
-            "espece" : "Octaling",
+            "species" : "Octaling",
             "affiliation" : ["Métro abyssal", "Musicien", "Tour de l'Ordre"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Flo",
             "image" : "flow.png",
             "sexe" : "Femme",
-            "espece" : "Nudibranche",
+            "species" : "Nudibranche",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Angie",
             "image" : "frye.png",
             "sexe" : "Femme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Idol"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Arnaud Till",
             "image" : "gnarly.png",
             "sexe" : "Homme",
-            "espece" : "Nautile",
+            "species" : "Nautile",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Monia",
             "image" : "harmony.png",
             "sexe" : "Femme",
-            "espece" : "Anémone de mer",
+            "species" : "Anémone de mer",
             "affiliation" : ["Vendeur", "Musicien"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Don Podio",
             "image" : "iso_padre.png",
             "sexe" : "Homme",
-            "espece" : "Isopode géant",
+            "species" : "Isopode géant",
             "affiliation" : ["Métro abyssal"],
-            "jeu" : ["Splatoon 2"]
+            "game" : ["Splatoon 2"]
         },
         {
             "name" : "Mehdi",
             "image" : "jel_la_fleur.png",
             "sexe" : "Inconnue",
-            "espece" : "Méduse",
+            "species" : "Méduse",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Gégé Latineux",
             "image" : "jelfonzo.png",
             "sexe" : "Inconnue",
-            "espece" : "Méduse",
+            "species" : "Méduse",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "G. Latineux",
             "image" : "jelonzo.png",
             "sexe" : "Inconnue",
-            "espece" : "Méduse",
+            "species" : "Méduse",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 1", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "Anastase Macalamar",
             "image" : "macalamar.png",
             "sexe" : "Homme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Escadron Espadon", "Métro abyssal"],
-            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Vendeuse",
             "image" : "marigold.png",
             "sexe" : "Inconnue",
-            "espece" : "Poisson rouge",
+            "species" : "Poisson rouge",
             "affiliation" : ["Vendeur", "Snack"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Coralie",
             "image" : "marina.png",
             "sexe" : "Femme",
-            "espece" : "Octaling",
+            "species" : "Octaling",
             "affiliation" : ["Idol", "Métro abyssal", "Tour de l'Ordre"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Mini Charbitre",
             "image" : "mini_charbitre.png",
             "sexe" : "Inconnue",
-            "espece" : "Chat",
+            "species" : "Chat",
             "affiliation" : ["Arbitre"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "M. Coco",
             "image" : "mr_coco.png",
             "sexe" : "Homme",
-            "espece" : "Crabe de cocotier",
+            "species" : "Crabe de cocotier",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Tipik",
             "image" : "murch.png",
             "sexe" : "Homme",
-            "espece" : "Oursin",
+            "species" : "Oursin",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Oly",
             "image" : "oly.png",
             "sexe" : "Femme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Idol", "Escadron Espadon"],
-            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Perle",
             "image" : "perle.png",
             "sexe" : "Femme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Idol", "Métro abyssal", "Tour de l'Ordre"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Agent 3",
             "image" : "new_agent3.png",
             "sexe" : "Femme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Escadron Espadon"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Pasquale",
             "image" : "shiver.png",
             "sexe" : "Femme",
-            "espece" : "Octaling",
+            "species" : "Octaling",
             "affiliation" : ["Idol"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Agent 4",
             "image" : "agent4.png",
             "sexe" : "Femme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Escadron Espadon"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Agent 8",
             "image" : "agent8.png",
             "sexe" : "Femme",
-            "espece" : "Octaling",
+            "species" : "Octaling",
             "affiliation" : ["Escadron Espadon", "Métro abyssal", "Tour de l'Ordre"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Amiral",
             "image" : "captain.png",
             "sexe" : "Femme",
-            "espece" : "Inkling",
+            "species" : "Inkling",
             "affiliation" : ["Escadron Espadon"],
-            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Kipik",
             "image" : "spyke.png",
             "sexe" : "Homme",
-            "espece" : "Oursin",
+            "species" : "Oursin",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 1", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "Limu & Lumi",
             "image" : "shelly_donny.png",
             "sexe" : "Inconnue",
-            "espece" : "Triops",
+            "species" : "Triops",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Frédéric",
             "image" : "fred_crumbs.png",
             "sexe" : "Homme",
-            "espece" : "Chinchard japonais",
+            "species" : "Chinchard japonais",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Crustifer",
             "image" : "cipher.webp",
             "sexe" : "Inconnue",
-            "espece" : "Luciferidae",
+            "species" : "Luciferidae",
             "affiliation" : ["Vendeur", "Tour de l'Ordre"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Alex Cargo",
             "image" : "eddy.png",
             "sexe" : "Homme",
-            "espece" : "Escargot d'eau douce",
+            "species" : "Escargot d'eau douce",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         },
         {
             "name" : "Gambastien",
             "image" : "gambastien.png",
             "sexe" : "Inconnue",
-            "espece" : "Crevette impériale",
+            "species" : "Crevette impériale",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Mone",
             "image" : "moe.png",
             "sexe" : "Inconnue",
-            "espece" : "poisson clown",
+            "species" : "poisson clown",
             "affiliation" : ["Vendeur"],
-            "jeu" : ["Splatoon 1", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 3"]
         },
         {
             "name" : "DJ Octave",
             "image" : "dj_octave.webp",
             "sexe" : "Homme",
-            "espece" : "Octaling",
+            "species" : "Octaling",
             "affiliation" : ["Octarien"],
-            "jeu" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 1", "Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "M. Ours",
             "image" : "mr_grizz.png",
             "sexe" : "Homme",
-            "espece" : "Grizzli",
+            "species" : "Grizzli",
             "affiliation" : ["Salmon Run"],
-            "jeu" : ["Splatoon 2", "Splatoon 3"]
+            "game" : ["Splatoon 2", "Splatoon 3"]
         },
         {
             "name" : "Général Tatar",
             "image" : "tartarphone.webp",
             "sexe" : "Inconnue",
-            "espece" : "IA",
+            "species" : "IA",
             "affiliation" : ["Métro abyssal"],
-            "jeu" : ["Splatoon 2"]
+            "game" : ["Splatoon 2"]
         },
         {
             "name" : "Ordre",
             "image" : "ordrissime.webp",
             "sexe" : "Inconnue",
-            "espece" : "IA",
+            "species" : "IA",
             "affiliation" : ["Tour de l'Ordre"],
-            "jeu" : ["Splatoon 3"]
+            "game" : ["Splatoon 3"]
         }
     ]
 }
