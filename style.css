@@ -47,6 +47,10 @@ input {
     margin: 0 auto 0;
 }
 
+.size-08r {
+    font-size: 0.8rem;
+}
+
 
 
 .header {
@@ -59,20 +63,34 @@ input {
     gap: 0.5em;
 }
 
-.guess-line {
-    width: 100%;
-    gap: 0.5em;
+.div-search-img {
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
 }
 
-.guess-img {
+.div-search-img img {
     max-width: 4em;
     max-height: 4em;
 }
 
-.div-img {
-    width: 4em;
-    height: 4em;
-    padding: 0.5em;
+.guess-line {
+    width: 100%;
+    gap: 1em;
+}
+
+.guess-line div {
+    width: 6em;
+    height: 6em;
+}
+
+.guess-line div p {
+    text-align: center;
+}
+
+.div-guess-img img {
+    max-width: 6em;
+    max-height: 6em;
 }
 
 
@@ -83,7 +101,16 @@ input {
     overflow-y: auto;
 }
 
+#guess_header {
+    gap: 1em;
+}
+
 #guess_header div {
-    padding: 1em;
+    width: 6em;
+    height: 6em;
+}
+
+#guess_lines {
+    gap: 1em;
 }
 

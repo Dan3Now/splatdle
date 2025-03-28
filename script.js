@@ -25,10 +25,14 @@ class Game {
         for (let i=0; i<Object.keys(this.characterList[0]).length; i++) {
             let column = Object.keys(this.characterList[0])[i];
             let newDiv = document.createElement("div");
-            let newContent = document.createTextNode(column);
-            newDiv.appendChild(newContent);
+            let p = document.createElement("p");
+
+            p.innerHTML = column;
+            p.classList.add("center-margin");
+
+            newDiv.appendChild(p);
             this.guess_header.append(newDiv);
-            this.columnName.push(column)
+            this.columnName.push(column);
         }
 
         //adapt characterList
@@ -53,9 +57,9 @@ class Game {
                 let text = document.createElement("p");
 
                 image.src = this.imgDir + possible_chr[i]["image"];
-                image.classList.add("guess-img", "center-margin");
+                image.classList.add("center-margin");
                 div_img.appendChild(image);
-                div_img.classList.add("div-img");
+                div_img.classList.add("div-search-img");
                 text.innerHTML = possible_chr[i]["name"];
                 ppr.append(div_img, text);
                 ppr.classList.add("search-line");
@@ -67,21 +71,34 @@ class Game {
                     line.classList.add("guess-line")
 
                     for (let j=0; j<this.columnName.length; j++) {
+                        let div = document.createElement("div");
+
                         if (this.columnName[j] == "image") {
                             var elt = document.createElement("img");
+
+                            elt.classList.add("center-margin");
                             elt.src = this.imgDir + possible_chr[i]["image"];
+
+                            div.classList.add("div-guess-img");
                         } else {
                             var elt = document.createElement("p");
-                            elt.innerHTML = possible_chr[i][this.columnName[j]];
-                            //console.log(possible_chr[i]["image"]);
+                            let text = possible_chr[i][this.columnName[j]];
+
+                            if (typeof text !== "string") {
+                                text = text.join(",</br>");
+                            }
+
+                            if (text.length > 42) elt.classList.add("size-08r");
+
+                            elt.classList.add("center-margin");
+                            elt.innerHTML = text;
                         }
                         
-                        let div = document.createElement("div");
                         div.appendChild(elt);
                         line.appendChild(div);
                     }
                     
-                    console.log(line);
+                    //console.log(line);
                     this.guess_lines.appendChild(line);
                 })
             }
