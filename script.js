@@ -4,10 +4,11 @@
 class Game {
     constructor(list) {
         this.list = list;
+        this.imgDir = "";
 
         this.characterList = [];
+        this.notGuessChr = [];
         this.columnName = [];
-        this.imgDir = "";
 
         this.guess_input = document.getElementById("guess_input");
         this.guess_select = document.getElementById("guess_select");
@@ -41,10 +42,13 @@ class Game {
             return a["name"].localeCompare(b["name"]);
         });
 
+        this.notGuessChr= structuredClone(this.characterList);
+
         //add event
         //event for guess input
         this.guess_input.addEventListener("change", e => {
-            let possible_chr = this.characterList.filter(chr => {
+
+            let possible_chr = this.notGuessChr.filter(chr => {
                 return chr["name"].toLowerCase().includes(e.target.value);
             });
 
@@ -68,7 +72,7 @@ class Game {
 
                 ppr.addEventListener("click", e => {
                     let line = document.createElement("div");
-                    line.classList.add("guess-line")
+                    line.classList.add("guess-line");
 
                     for (let j=0; j<this.columnName.length; j++) {
                         let div = document.createElement("div");
@@ -97,6 +101,13 @@ class Game {
                         div.appendChild(elt);
                         line.appendChild(div);
                     }
+
+                    //remove from selection
+                    this.notGuessChr.splice(
+                        this.notGuessChr.indexOf(possible_chr[i]), 
+                        1
+                    );
+                    this.guess_select.removeChild(ppr);
                     
                     //console.log(line);
                     this.guess_lines.appendChild(line);
