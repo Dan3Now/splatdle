@@ -53,6 +53,17 @@ input {
     padding: 3em;
 }
 
+.search-line {
+    cursor: pointer;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.guess-line {
+    width: 100%;
+    gap: 0.5em;
+}
+
 .guess-img {
     max-width: 4em;
     max-height: 4em;

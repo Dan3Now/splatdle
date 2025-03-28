@@ -58,13 +58,13 @@ class Game {
                 div_img.classList.add("div-img");
                 text.innerHTML = possible_chr[i]["name"];
                 ppr.append(div_img, text);
-                ppr.classList.add("left-margin");
+                ppr.classList.add("search-line");
 
                 this.guess_select.append(ppr);
 
                 ppr.addEventListener("click", e => {
                     let line = document.createElement("div");
-                    line.classList.add("line")
+                    line.classList.add("guess-line")
 
                     for (let j=0; j<this.columnName.length; j++) {
                         if (this.columnName[j] == "image") {
