@@ -9,6 +9,7 @@ class Game {
         this.characterList = [];
         this.notGuessChr = [];
         this.columnName = [];
+        this.theChr = {};
 
         this.guess_input = document.getElementById("guess_input");
         this.guess_select = document.getElementById("guess_select");
@@ -41,8 +42,13 @@ class Game {
         this.characterList.sort((a,b) => {
             return a["name"].localeCompare(b["name"]);
         });
+        console.log(this.characterList);
 
         this.notGuessChr= structuredClone(this.characterList);
+
+        //choose the character to find
+        this.theChr = this.characterList[new Date().getDay()];
+        console.log("The character to find :", this.theChr);
 
         //add event
         //event for guess input
@@ -114,8 +120,6 @@ class Game {
                 })
             }
         });
-
-        console.log(this.characterList);
     }
 }
 
