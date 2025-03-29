@@ -17,6 +17,22 @@ class Game {
         this.guess_lines = document.getElementById("guess_lines");
     }
 
+    change_bg_attribute(chr, attr, div) {
+        if (_.isEqual(chr[attr], this.theChr[attr])) {
+            div.classList.add("guess-right");
+        } else if (typeof chr[attr] === "object") {
+            for (let i=0; i<chr[attr].length; i++) {
+                if (this.theChr[attr].includes(chr[attr][i])) {
+                    div.classList.add("guess-nearly");
+                    return;
+                }
+            }
+            div.classList.add("guess-false");
+        } else {
+            div.classList.add("guess-false");
+        }
+    }
+
     async begin() {
         const response = await fetch(this.list);
         var json_data = await response.json();
@@ -44,7 +60,7 @@ class Game {
         });
         console.log(this.characterList);
 
-        this.notGuessChr= structuredClone(this.characterList);
+        this.notGuessChr = structuredClone(this.characterList);
 
         //choose the character to find
         this.theChr = this.characterList[new Date().getDay()];
@@ -97,11 +113,16 @@ class Game {
                             if (typeof text !== "string") {
                                 text = text.join(",</br>");
                             }
-
                             if (text.length > 42) elt.classList.add("size-08r");
 
-                            elt.classList.add("center-margin");
                             elt.innerHTML = text;
+
+                            elt.classList.add("center-margin");
+                            this.change_bg_attribute(
+                                possible_chr[i],
+                                this.columnName[j],
+                                div
+                            );
                         }
                         
                         div.appendChild(elt);

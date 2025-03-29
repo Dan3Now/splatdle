@@ -114,3 +114,16 @@ input {
     gap: 1em;
 }
 
+
+
+.guess-right {
+    background-color: lightgreen;
+}
+
+.guess-nearly {
+    background-color: lightgoldenrodyellow;
+}
+
+.guess-false {
+    background-color: lightcoral;
+}
