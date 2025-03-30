@@ -63,7 +63,12 @@ class Game {
         this.notGuessChr = structuredClone(this.characterList);
 
         //choose the character to find
-        this.theChr = this.characterList[new Date().getDay()];
+        let date = new Date();
+        let date_seed = date.getDate().toString();
+        date_seed += (date.getMonth()+1).toString();
+        date_seed += date.getFullYear();
+        date_seed = parseInt(date_seed);
+        this.theChr = this.characterList[date_seed % this.characterList.length];
         console.log("The character to find :", this.theChr);
 
         //add event
