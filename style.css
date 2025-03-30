@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-image: url("assets/splatoon3-pattern-02-1920x1080-1.jpg");
+    background-attachment: fixed;
 }
 
 div {
@@ -85,6 +86,9 @@ input {
 .guess-line div {
     width: 6em;
     height: 6em;
+    border: 0.1em;
+    border-style: solid;
+    border-color: white;
 }
 
 .guess-line div p {
@@ -92,8 +96,8 @@ input {
 }
 
 .div-guess-img img {
-    max-width: 6em;
-    max-height: 6em;
+    max-width: 5em;
+    max-height: 5em;
 }
 
 
@@ -105,7 +109,7 @@ input {
 }
 
 #guess_header {
-    gap: 0.5em;
+    gap: 0.7em;
 }
 
 #guess_header div {
