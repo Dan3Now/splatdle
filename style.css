@@ -7,12 +7,14 @@
 
 * {
     font-family: "Splatfont2";
+    color: white;
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("assets/splatoon3-pattern-02-1920x1080-1.jpg");
 }
 
 div {
@@ -23,6 +25,7 @@ div {
 
 input {
     width: 100%;
+    color: black;
 }
 
 
@@ -76,7 +79,7 @@ input {
 
 .guess-line {
     width: 100%;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 .guess-line div {
@@ -102,7 +105,7 @@ input {
 }
 
 #guess_header {
-    gap: 1em;
+    gap: 0.5em;
 }
 
 #guess_header div {
@@ -111,19 +114,19 @@ input {
 }
 
 #guess_lines {
-    gap: 1em;
+    gap: 0.5em;
 }
 
 
 
 .guess-right {
-    background-color: lightgreen;
+    background-color: green;
 }
 
 .guess-nearly {
-    background-color: lightgoldenrodyellow;
+    background-color: orange;
 }
 
 .guess-false {
-    background-color: lightcoral;
+    background-color: red;
 }
