@@ -11,7 +11,10 @@ class Game {
         this.columnName = [];
         this.theChr = {};
 
+        this.isFinish = false;
+
         this.guess_input = document.getElementById("guess_input");
+        this.guess_submit = document.getElementById("guess_submit")
         this.guess_select = document.getElementById("guess_select");
         this.guess_header = document.getElementById("guess_header");
         this.guess_lines = document.getElementById("guess_lines");
@@ -31,6 +34,12 @@ class Game {
         } else {
             div.classList.add("guess-false");
         }
+    }
+
+    wining () {
+        this.guess_input.disabled = true;
+        this.guess_submit.disabled = true;
+        this.guess_select.replaceChildren();
     }
 
     async begin() {
