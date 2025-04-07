@@ -36,7 +36,7 @@ class Game {
         }
     }
 
-    wining () {
+    winning () {
         this.guess_input.disabled = true;
         this.guess_submit.disabled = true;
         this.guess_select.replaceChildren();
@@ -82,7 +82,9 @@ class Game {
 
         //add event
         //event for guess input
-        this.guess_input.addEventListener("change", e => {
+        this.guess_input.addEventListener("change", function update_guess_selct(e) {
+
+            if (this.isFinish) return;
 
             let possible_chr = this.notGuessChr.filter(chr => {
                 return chr["name"].toLowerCase().includes(e.target.value);
@@ -106,7 +108,7 @@ class Game {
 
                 this.guess_select.append(ppr);
 
-                ppr.addEventListener("click", e => {
+                ppr.addEventListener("click", function add_guess_line(e) {
                     let line = document.createElement("div");
                     line.classList.add("guess-line");
 
@@ -152,6 +154,12 @@ class Game {
                     
                     //console.log(line);
                     this.guess_lines.prepend(line);
+
+                    //winning condition
+                    if (_.isEqual(this.theChr, possible_chr[i])) {
+                        this.isFinish = true;
+                        this.winning();
+                    }
                 })
             }
         });
