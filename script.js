@@ -18,6 +18,7 @@ class Game {
         this.guess_select = document.getElementById("guess_select");
         this.guess_header = document.getElementById("guess_header");
         this.guess_lines = document.getElementById("guess_lines");
+        this.winning_div = document.getElementById("winningDiv");
     }
 
     change_bg_attribute(chr, attr, div) {
@@ -37,9 +38,33 @@ class Game {
     }
 
     winning () {
+        //disable input, submit and select
         this.guess_input.disabled = true;
         this.guess_submit.disabled = true;
         this.guess_select.replaceChildren();
+
+        //create winning div
+        let img = document.createElement("img");
+        let pWin = document.createElement("p");
+        let pName = document.createElement("p");
+        let pTry = document.createElement("p");
+        let divMdl = document.createElement("div");
+        let divImg = document.createElement("div");
+
+        pWin.innerHTML = "Joli ! Vous avez trouver le bon personnage !";
+        this.winning_div.appendChild(pWin);
+
+        img.src = this.imgDir + this.theChr["image"];
+        img.classList.add("center-margin");
+        divImg.appendChild(img);
+        divImg.classList.add();
+        pName.innerHTML = this.theChr["name"];
+        divMdl.appendChild(divImg);
+        divMdl.appendChild(pName);
+        this.winning_div.appendChild(divMdl);
+
+        pTry.innerHTML = `Vous avez réussit en ${this.guess_lines.childElementCount} essaie`;
+        this.winning_div.appendChild(pTry);
     }
 
     async begin() {
@@ -82,7 +107,7 @@ class Game {
 
         //add event
         //event for guess input
-        this.guess_input.addEventListener("change", function update_guess_selct(e) {
+        this.guess_input.addEventListener("change", e => {
 
             if (this.isFinish) return;
 
@@ -108,7 +133,7 @@ class Game {
 
                 this.guess_select.append(ppr);
 
-                ppr.addEventListener("click", function add_guess_line(e) {
+                ppr.addEventListener("click", e => {
                     let line = document.createElement("div");
                     line.classList.add("guess-line");
 
@@ -154,7 +179,7 @@ class Game {
                     
                     //console.log(line);
                     this.guess_lines.prepend(line);
-
+                    
                     //winning condition
                     if (_.isEqual(this.theChr, possible_chr[i])) {
                         this.isFinish = true;
