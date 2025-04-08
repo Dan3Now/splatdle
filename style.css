@@ -69,6 +69,7 @@ input {
     cursor: pointer;
     width: 100%;
     gap: 0.5em;
+    scroll-snap-align: start;
 }
 
 .div-search-img {
@@ -110,7 +111,15 @@ input {
 #guess_select {
     width: 100%;
     max-height: 10em;
+    margin-top: 0.3em;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scroll-snap-type: y mandatory;
+    border-style: solid;
+    border-width: 0.15em;
+    border-radius: 0.2em;
+    border-color: #484a4e;
+    background-color: #252628;
 }
 
 #guess_header {
