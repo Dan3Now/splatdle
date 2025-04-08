@@ -51,6 +51,10 @@ input {
     margin: 0 auto 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .size-08r {
     font-size: 0.8rem;
 }
@@ -88,11 +92,12 @@ input {
     height: 6em;
     border: 0.1em;
     border-style: solid;
+    border-radius: 0.8em;
     border-color: white;
 }
 
-.guess-line div p {
-    text-align: center;
+.div-guess-img{
+    background-color: #252628;
 }
 
 .div-guess-img img {
@@ -124,13 +129,16 @@ input {
 
 
 .guess-right {
-    background-color: green;
+    background-image: url("assets/bg_right.png");
+    background-size: 250px;
 }
 
 .guess-nearly {
-    background-color: orange;
+    background-image: url("assets/bg_nearly.png");
+    background-size: 250px;
 }
 
 .guess-false {
-    background-color: red;
+    background-image: url("assets/bg_false.png");
+    background-size: 250px;
 }

@@ -158,7 +158,7 @@ class Game {
 
                             elt.innerHTML = text;
 
-                            elt.classList.add("center-margin");
+                            elt.classList.add("center-margin", "text-center");
                             this.change_bg_attribute(
                                 possible_chr[i],
                                 this.columnName[j],
