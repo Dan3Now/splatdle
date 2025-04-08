@@ -65,6 +65,10 @@ input {
     padding: 3em;
 }
 
+.div-input {
+    gap: 0.1em;
+}
+
 .search-line {
     cursor: pointer;
     width: 100%;
@@ -107,6 +111,27 @@ input {
 }
 
 
+
+#guess_input {
+    color: white;
+    border: solid;
+    border-color: #484a4e;
+    border-radius: 0.2em;
+    background-color: #252628;
+}
+
+#guess_submit {
+    cursor: pointer;
+    outline: none;
+    border: solid;
+    border-color: #484a4e;
+    border-radius: 0.2em;
+    background-color: #252628;
+}
+
+#guess_submit:hover {
+    background-color: #484a4e;
+}
 
 #guess_select {
     width: 100%;
